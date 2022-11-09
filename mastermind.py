@@ -27,9 +27,9 @@ def masterMind():
     darkGreen = (0, 204, 0)
 
     # Fonts/Text
-    titleFont = pygame.font.Font("Fonts/airmill_o.ttf", 60)
+    titleFont = pygame.font.Font("airmill_o.ttf", 60)
     title = titleFont.render("MasterMind", True, False)
-    textFont = pygame.font.Font("Fonts/airmill_o.ttf", 30)
+    textFont = pygame.font.Font("airmill_o.ttf", 30)
     correct = textFont.render("Total Correct", True, False)
     incorrect = textFont.render("Total Incorrect", True, False)
     colorButtons = textFont.render("Color Buttons", True, False)
